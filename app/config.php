@@ -10,4 +10,4 @@
   define("host", "localhost");
   define("username", "root");
   define("password", "usystem123");
-  define("dbname", "pdo_usystem");
+  define("dbname", "github");
