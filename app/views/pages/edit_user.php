@@ -9,7 +9,7 @@
 				die();
 			}
 
-			$user_data 	= $s->userData($name);
+			$user_data = $s->userData($name);
 ?>
 
 <section class="box">
