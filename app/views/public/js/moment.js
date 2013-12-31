@@ -29,7 +29,7 @@
         // ASP.NET json date format regex
         aspNetJsonRegex = /^\/?Date\((\-?\d+)/i,
 
-        // format tokens
+
         formattingTokens = /(\[[^\[]*\])|(\\)?(Mo|MM?M?M?|Do|DDDo|DD?D?D?|ddd?d?|do?|w[o|w]?|YYYY|YY|a|A|hh?|HH?|mm?|ss?|SS?S?|zz?|ZZ?)/g,
         localFormattingTokens = /(LT|LL?L?L?)/g,
         formattingRemoveEscapes = /(^\[)|(\\)|\]$/g,
