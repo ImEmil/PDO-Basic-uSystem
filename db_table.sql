@@ -1,7 +1,3 @@
-CREATE DATABASE IF NOT EXISTS `github` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `github`;
-
-
 CREATE TABLE IF NOT EXISTS `comments` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `to` text NOT NULL,
